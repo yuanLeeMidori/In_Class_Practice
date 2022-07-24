@@ -7,3 +7,17 @@
  * f(num) = f(num-1)+f(num-2)
 
 */
+
+function fib(num){
+    // base case
+    if (num <= 2 && num > 0) {
+        return 1;
+    } else if (num < 0) {
+        return 0;
+    }
+    return fib(num-1) + fib(num-2);
+    
+}
+  
+console.log(fib(36));
+console.log(fib(40));
