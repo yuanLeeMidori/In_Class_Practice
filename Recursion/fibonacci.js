@@ -21,3 +21,4 @@ function fib(num){
   
 console.log(fib(36));
 console.log(fib(40));
+console.log(fib(-1));
